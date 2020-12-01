@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1021262922135",
+    "firebase_url": "https://munsoc-chatapp.firebaseio.com",
+    "project_id": "munsoc-chatapp",
+    "storage_bucket": "munsoc-chatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021262922135:android:a60737326b6f1123cf84d2",
+        "android_client_info": {
+          "package_name": "com.anish.chat_app_munsoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021262922135-t90t2f893hp2vo7tgfjhmmiuib4om1cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsSR5wPpRm0C7bgu9zbi9GL6PdnQv_BSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021262922135-t90t2f893hp2vo7tgfjhmmiuib4om1cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

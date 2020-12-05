@@ -1,6 +1,7 @@
 import 'package:chat_app_munsoc/Pages/search.dart';
 import 'package:chat_app_munsoc/helper/constants.dart';
 import 'package:chat_app_munsoc/helper/helperfunction.dart';
+import 'package:chat_app_munsoc/services/database.dart';
 import 'package:flutter/material.dart';
 import 'package:chat_app_munsoc/services/auth.dart';
 import 'package:chat_app_munsoc/helper/authenticate.dart';
@@ -13,10 +14,14 @@ class ChatHome extends StatefulWidget {
 class _ChatHomeState extends State<ChatHome> {
 
   AuthMethod authMethods =  new AuthMethod();
+  DatabaseMethods databaseMethods = new DatabaseMethods();
 
   @override
   void initState() {
     getUserInfo();
+    databaseMethods.getChatRooms(Constants.myName).then((){
+
+    });
     super.initState();
   }
 

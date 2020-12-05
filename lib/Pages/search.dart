@@ -53,7 +53,9 @@ class _SearchScreenState extends State<SearchScreen> {
       };
       DatabaseMethods().createChatRoom(chatRoomID, chatRoomMap);
       Navigator.push(context, MaterialPageRoute(
-          builder: (context) => ChatScreen()
+          builder: (context) => ChatScreen(
+            chatRoomID
+          )
       ));
     }else{
       print("Cannot send message to yourself");
@@ -145,8 +147,8 @@ class _SearchScreenState extends State<SearchScreen> {
                         decoration: BoxDecoration(
                           gradient: LinearGradient(
                             colors: [
-                              //TODO const Color(value),
-                              //TODO const Color(value),
+                              const Color(0xFFE64A19),
+                              const Color(0xFFBF360C),
                             ]
                           ),
                           borderRadius: BorderRadius.circular(40)
